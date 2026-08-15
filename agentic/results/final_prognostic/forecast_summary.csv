@@ -1,0 +1,5 @@
+arm,n,json_valid,rul_mae,rul_bias,s_score_mean,range_coverage,range_width,trend_dir_acc,outlook_acc,mono_violation_rate,mono_viol_gt5,dl_used_rate,steps_mean
+b0_median,89,1.0,41.242,-40.489,1356.941,0.461,31.275,,,0.73,0.697,,
+dl_only,89,1.0,15.626,-15.626,3.377,,,,,0.0,0.0,,
+P7_agent,89,0.989,36.28,7.939,471.227,0.098,14.085,0.288,0.71,0.73,0.697,0.0,3.978
+P7_agent_dl,89,0.989,22.819,-22.072,83.85,0.506,39.614,0.313,0.714,0.629,0.449,1.0,4.0

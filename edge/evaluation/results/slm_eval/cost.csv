@@ -1,0 +1,2 @@
+n,wall_p50,wall_p95,gen_tokens_median,decode_tps_median,prefill_tps_median
+89,5.595,6.404800000000001,233.0,44.3,1707.7

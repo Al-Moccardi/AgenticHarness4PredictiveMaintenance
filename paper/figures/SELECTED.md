@@ -1,0 +1,23 @@
+# Selected paper figures (21)
+
+- fig3a_rescue_hero
+- fig6b_trend_chance
+- figAB1_risk_coverage
+- figAB2_confidence_validity
+- figAB3_abstention_ladder
+- figAB4_abstention_vs_rul
+- figAB5_calibrated_urgency
+- figC1_risk_profile
+- figCMP1_rag_vs_agent
+- figD10_ticket_exhibit
+- figD8_action_mix
+- figP5_error_by_stage
+- figR1_ragas_audited
+- figS_prog_forest
+- figS_sevstage_agent
+- figS_similarity_ecdf
+- figS_stagegap_ecdf
+- figT_combined_ticket
+- figT_high_confidence_ticket
+- figZ1_eol_sweep_mae
+- figZ2_eol_sweep_safety

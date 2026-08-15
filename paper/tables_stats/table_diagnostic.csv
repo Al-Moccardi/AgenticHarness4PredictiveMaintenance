@@ -1,0 +1,5 @@
+pattern,cit,coher,hist_gr,esc,ac
+B0_retrieval,1.0,1.0,0.0,0.0,0.0
+P1_direct,0.0,0.966,1.0,0.0,0.0
+P2_rag,0.876,0.753,0.963,0.0,0.0
+P5_verifier,0.989,0.989,1.0,0.011,0.124

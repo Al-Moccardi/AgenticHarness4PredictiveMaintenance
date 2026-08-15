@@ -1,0 +1,7 @@
+section,mean_words,sd,empty
+Anomaly Interpretation,26.47,3.8,0
+Cause,12.91,2.5,0
+Impact,12.08,2.43,0
+Anomalous Trend,15.04,3.71,0
+Expected Future Failures,16.34,2.04,0
+Recommendation,18.44,2.3,0

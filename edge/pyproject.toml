@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arad-edge"
+version = "1.0.0"
+description = "A-RAD edge tier: frozen Isolation-Forest detection + SLM interpretation on Jetson Orin Nano, with streaming collection and hardware statistics."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy", "pandas", "scikit-learn", "scipy", "joblib", "requests",
+]
+
+[project.optional-dependencies]
+progress = ["tqdm"]
+stats = ["matplotlib"]
+all = ["tqdm", "matplotlib"]
+
+[project.scripts]
+arad-edge = "arad_edge.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["arad_edge*"]

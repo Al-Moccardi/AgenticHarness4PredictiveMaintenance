@@ -1,0 +1,19 @@
+# SLM behavioural evaluation
+
+89 interpretations.
+
+| metric | value | n | note |
+|---|---|---|---|
+| pairwise_3gram_jaccard_mean | 0.156 | 3916 |  |
+| pairwise_3gram_jaccard_p95 | 0.3408 | 3916 |  |
+| pairwise_3gram_jaccard_max | 0.7807 | 3916 | near-duplicate pair share: 0.7% |
+| distinct_token_ratio | 0.0282 | 9014 |  |
+| top_phrase_share | 0.618 | 89 | 'while pattern persists gravity score' |
+| total_words_mean | 111.3 | 89 |  |
+| words_per_sentence_mean | 11.4 | 89 |  |
+| spearman_gravity_vs_action_urgency | 0.386 | 85 | p=0.000265; ranks monitor(1)..shutdown(6) |
+| hard_action_rate_when_gravity_ge4 | 0.92 | 25 | shutdown/replace/repair |
+| trend_mentions_history_when_prior>0 | 1.0 | 81 |  |
+| trend_mentions_history_when_no_prior | 1.0 | 8 | counters are always in the prompt, so nonzero is expected |
+| units_gravity_escalates_rho_median | 0.149 | 5 |  |
+| frac_units_gravity_nondecreasing_trend | 0.8 | 5 |  |

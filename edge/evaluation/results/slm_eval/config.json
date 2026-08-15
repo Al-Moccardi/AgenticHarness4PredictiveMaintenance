@@ -1,0 +1,5 @@
+{
+ "merged": "results/test_FD002_with_interpretations.csv",
+ "stats": "results/edge_stats.csv",
+ "outdir": "results/slm_eval"
+}

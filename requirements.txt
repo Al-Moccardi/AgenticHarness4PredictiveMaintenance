@@ -1,0 +1,9 @@
+# A-RAD - all tiers
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+joblib
+ollama
+# tensorflow    # optional: only to retrain the CNN-GRU (hints are precomputed)

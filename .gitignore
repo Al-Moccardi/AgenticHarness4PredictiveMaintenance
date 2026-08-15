@@ -1,0 +1,113 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging / build
+build/
+dist/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Test / type-check / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.dmypy.json
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+
+# ---------------------------------------------------------------------------
+# Secrets & local config
+# ---------------------------------------------------------------------------
+# agentic/apdm/llm.py reads OPENAI_API_KEY from the environment — never commit it.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ---------------------------------------------------------------------------
+# Notebooks
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ---------------------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Project archives & scratch
+# ---------------------------------------------------------------------------
+# 45 MB snapshot of the repo itself — do not track.
+AgenticRag.zip
+*.zip
+*.tar
+*.tar.gz
+*.7z
+tmp/
+scratch/
+*.tmp
+*.joblib.tmp
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+*.log
+logs/
+
+# ---------------------------------------------------------------------------
+# Runtime outputs
+# ---------------------------------------------------------------------------
+# edge/ keeps its own .gitignore (results/* with a .gitkeep); this mirrors it
+# for any other run scratch that lands at the top level.
+/results/
+edge/results/*
+!edge/results/.gitkeep
+
+# ---------------------------------------------------------------------------
+# Large regenerable artifacts (opt in by uncommenting)
+# ---------------------------------------------------------------------------
+# These are currently TRACKED so the paper stays reproducible out of the box.
+# GitHub warns above 50 MB and hard-rejects above 100 MB per file, so if the
+# repo gets heavy, uncomment these and move them to Git LFS or a data release.
+#
+# agentic/data/vector_store/embeddings.npz    # 13 MB, rebuildable from data/
+# agentic/data/*.csv                          # 12 MB + 7 MB source tables
+# agentic/queries/anomalies_multimodal.csv    # 10 MB
+# agentic/results/**/episodes.jsonl           # 8.5 MB run transcripts
+# edge/models/edge_bundle.joblib              # 6.8 MB trained bundle
+# edge/data/*.csv
+# agentic/models/cnn_gru/cnn_gru.keras

@@ -1,0 +1,19 @@
+{
+ "csv": "data/anomalies_multimodal.csv",
+ "label": "train fleet, run-to-failure",
+ "outdir": "results/if_eval",
+ "tau_pos": 30,
+ "tau_neg": 100,
+ "tau_sweep": [
+  10,
+  20,
+  30,
+  40,
+  50,
+  75
+ ],
+ "sustain_m": 2,
+ "sustain_w": 10,
+ "burnin_frac": 0.5,
+ "n_boot": 200
+}

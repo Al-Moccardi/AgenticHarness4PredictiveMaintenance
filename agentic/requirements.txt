@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+xgboost
+scipy
+matplotlib
+tabulate
+# optional backends
+ollama
+openai
